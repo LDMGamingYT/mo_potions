@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "cauldron_side",
+        "top": "cauldron_top",
+        "5": "campfire_log",
+        "bottom": "cauldron_bottom",
+        "inside": "cauldron_inner"
+      },
+      "name": "default"
+    }
+  }
+}

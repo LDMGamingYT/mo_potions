@@ -1,0 +1,21 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Mining Fatigue",
+    "splashName": "Splash Potion of Mining Fatigue",
+    "lingeringName": "Lingering Potion of Mining Fatigue",
+    "arrowName": "Arrow of Mining Fatigue",
+    "effects": [
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 1800,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
