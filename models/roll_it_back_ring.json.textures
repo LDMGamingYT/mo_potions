@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "roll_it_back_ring"
+      },
+      "name": "default"
+    }
+  }
+}

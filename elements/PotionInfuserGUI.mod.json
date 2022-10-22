@@ -1,0 +1,101 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Potion Infusing",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Potion Infusing",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "potion_infuser_gui_quarter_size.png",
+          "use1Xscale": true,
+          "name": "potion_infuser_gui_quarter_size.png",
+          "x": 198,
+          "y": 66
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.POTIONITEM"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "PotionInfuserFluidHelper"
+          },
+          "name": "Slot #0",
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Infuse",
+          "onClick": {
+            "name": "PotionInfuseButton"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Infuse",
+          "x": 236,
+          "y": 44
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

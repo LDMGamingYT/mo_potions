@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mo_potions:angel_totem"
+    },
+    "title": {
+      "translate": "advancements.levitation_in_void.title"
+    },
+    "description": {
+      "translate": "advancements.levitation_in_void.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "levitation_in_void": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:end/root"
+}
