@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.1\bin\java.exe
-Arguments: '--in-jar, E:\Mods\Forge\mo_potions\build\libs\mo_potions-1.6-RELEASE+1.19.2-MC.jar, --out-jar, E:\Mods\Forge\mo_potions\build\reobfJar\output.jar, --srg-in, E:\Mods\Forge\mo_potions\build\createMcpToSrg\output.tsrg, --live'
+Arguments: '--in-jar, E:\Mods\Forge\mo_potions\build\libs\mo_potions-1.5-RELEASE+1.19.2-MC.jar, --out-jar, E:\Mods\Forge\mo_potions\build\reobfJar\output.jar, --srg-in, E:\Mods\Forge\mo_potions\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Logan\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - E:\Mods\Forge\mo_potions\build\fg_cache\net\minecraftforge\forge\1.19.2-43.1.1_mapped_official_1.19.2\forge-1.19.2-43.1.1_mapped_official_1.19.2-recomp.jar

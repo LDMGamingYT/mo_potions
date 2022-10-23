@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="All Rights Reserved"
 
 [[mods]]
 modId="mo_potions"
-version="1.6-RELEASE+1.19.2MC"
+version="1.5-RELEASE+1.19.2MC"
 displayName="Mo' Potions"
 credits="N/A"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-potions"
