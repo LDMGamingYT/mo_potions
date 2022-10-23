@@ -1,4 +1,4 @@
-
+/*
 package net.ldm.mopotions.network;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -82,3 +82,4 @@ public class PotionInfuserGUISlotMessage {
 				PotionInfuserGUISlotMessage::handler);
 	}
 }
+*/

@@ -1,7 +1,7 @@
-Java Launcher: D:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--inJar, E:\MCreatorWorkspaces\mo_potions\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0\forge-1.18.2-40.1.0-injected.jar, --outJar, E:\MCreatorWorkspaces\mo_potions\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, E:\MCreatorWorkspaces\mo_potions\src\main\resources\META-INF\accesstransformer.cfg, --atFile, E:\MCreatorWorkspaces\mo_potions\build\_atJar_4\parent_at.cfg'
+Java Launcher: C:\Program Files\Java\jdk-17.0.1\bin\java.exe
+Arguments: '--inJar, E:\Mods\Forge\mo_potions\build\fg_cache\net\minecraftforge\forge\1.19.2-43.1.1\forge-1.19.2-43.1.1-injected.jar, --outJar, E:\Mods\Forge\mo_potions\build\fg_cache\net\minecraftforge\forge\1.19.2-43.1.1_mapped_official_1.19.2\forge-1.19.2-43.1.1_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, E:\Mods\Forge\mo_potions\src\main\resources\META-INF\accesstransformer.cfg, --atFile, E:\Mods\Forge\mo_potions\build\_atJar_4\parent_at.cfg'
 Classpath:
- - C:\Users\Logan\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: E:\MCreatorWorkspaces\mo_potions\build\_atJar_4
+ - C:\Users\Logan\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: E:\Mods\Forge\mo_potions\build\_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================
