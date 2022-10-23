@@ -1,7 +1,4 @@
-
 /*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package net.ldm.mopotions.init;
 
 import net.minecraftforge.network.IContainerFactory;
@@ -35,3 +32,4 @@ public class MoPotionsModMenus {
 		event.getRegistry().registerAll(REGISTRY.toArray(new MenuType[0]));
 	}
 }
+*/

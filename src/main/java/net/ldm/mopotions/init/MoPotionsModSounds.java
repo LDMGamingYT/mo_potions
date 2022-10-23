@@ -1,30 +1,20 @@
 
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package net.ldm.mopotions.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-
-import net.minecraft.sounds.SoundEvent;
+import net.ldm.mopotions.MoPotionsMod;
 import net.minecraft.resources.ResourceLocation;
-
-import java.util.Map;
-import java.util.HashMap;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoPotionsModSounds {
-	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
-	static {
-		REGISTRY.put(new ResourceLocation("mo_potions", "potions.roll_it_back.activate"),
-				new SoundEvent(new ResourceLocation("mo_potions", "potions.roll_it_back.activate")));
-	}
+	//public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
+	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MoPotionsMod.MODID);
 
-	@SubscribeEvent
-	public static void registerSounds(RegistryEvent.Register<SoundEvent> event) {
-		for (Map.Entry<ResourceLocation, SoundEvent> sound : REGISTRY.entrySet())
-			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
+	static {
+		REGISTRY.register("potions.roll_it_back.activate", () ->
+				new SoundEvent(new ResourceLocation("mo_potions", "potions.roll_it_back.activate")));
 	}
 }

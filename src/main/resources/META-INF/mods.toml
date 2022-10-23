@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="mo_potions"
-version="1.51.18.2"
+version="1.6-RELEASE+1.19.2MC"
 displayName="Mo' Potions"
 credits="N/A"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-potions"
@@ -17,7 +17,7 @@ Adds more potions to Minecraft! You can now brew almost anything, from Haste to 
 [[dependencies.mo_potions]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 
