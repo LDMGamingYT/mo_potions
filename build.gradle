@@ -10,9 +10,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.5-RELEASE+1.19.2-MC'
-group = 'net.ldm.mo_potions'
-archivesBaseName = 'mo_potions'
+version = modVersion
+group = projectGroup
+archivesBaseName = modID
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
