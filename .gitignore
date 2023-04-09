@@ -1,7 +1,6 @@
-/run/
-run/
 .idea/
 .gradle/
 build
 /gradle/
 /.idea/
+/run/
