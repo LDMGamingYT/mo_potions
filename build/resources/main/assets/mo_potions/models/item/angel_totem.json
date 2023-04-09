@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "mo_potions:items/roll_it_back"
-  }
-}
